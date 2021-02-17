@@ -1,0 +1,8 @@
+#%Module
+
+set s $APPROOT/opt/gcc-7.5.0
+
+module-whatis    gcc 7.5.0
+prepend-path PATH             $s/bin
+prepend-path LD_LIBRARY_PATH  $s/lib
+prepend-path LD_LIBRARY_PATH  $s/lib64

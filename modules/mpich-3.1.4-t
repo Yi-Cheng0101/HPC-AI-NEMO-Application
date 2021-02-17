@@ -1,0 +1,7 @@
+#%Module
+
+set s $APPROOT/opt/mpich-3.1.4
+
+prepend-path PATH             $s/bin
+prepend-path LD_LIBRARY_PATH  $s/lib
+prepend-path INCLUDE          $s/include

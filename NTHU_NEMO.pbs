@@ -1,0 +1,43 @@
+#!/bin/bash
+#PBS -P 50000041
+#PBS -N NTHU_NEMO_32NODE_15CPUs
+#PBS -q normal
+#PBS -l select=32:ncpus=24:mpiprocs=15:mem=96gb
+#PBS -l walltime=00:30:00
+#PBS -o NTHU_NEMO_32NODE_15CPUs_out.txt
+#PBS -e NTHU_NEMO_32NODE_15CPUs_err.txt
+#PBS -M n88199911652@gmail.com
+#PBS -m be
+
+export APPROOT=$APPROOT
+export MODULEPATH=$APPROOT/modules:$MODULEPATH
+module purge
+module load gcc-7.5.0-t
+module load hdf5-1.8.21-t
+module load netcdf-c-4.7.3-t
+module load netcdf-fortran-4.4.5-t
+module load pnetcdf-1.12.0-t
+module load mpich-3.1.4-t
+
+module list
+
+hostfile="hostfile.$PBS_JOBID"
+WCOLL="wcoll.$PBS_JOBID"
+export WCOLL
+sort $PBS_NODEFILE | uniq > $WCOLL
+((np=0))
+for h in `cat $WCOLL` ; do
+n=`grep -cx "$h" "$PBS_NODEFILE"`
+echo $h-ib0:$n
+((np=np+n))
+done > $APPROOT/$hostfile
+
+
+echo "=============================mpi run============================"
+
+
+cd $APPROOT/opt/nemo-4.0/cfgs/hpcx_linux_gfortran_gyre_pisces/EXP00/
+
+mpirun -np 480 \
+-machinefile $APPROOT/$hostfile \
+./nemo

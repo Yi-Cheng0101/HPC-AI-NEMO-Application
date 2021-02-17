@@ -1,0 +1,9 @@
+#%Module
+
+set s $APPROOT/opt/netcdf-fortran-4.4.5
+
+prepend-path PATH $s/bin
+prepend-path LIBRARY_PATH $s/lib
+prepend-path LD_LIBRARY_PATH $s/lib
+prepend-path CPATH $s/include
+prepend-path INCLUDE $s/include
