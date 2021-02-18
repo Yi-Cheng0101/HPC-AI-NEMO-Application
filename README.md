@@ -47,3 +47,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
        chmod +x install_nemo_local.sh && \
        ./install_nemo_local.sh
        ```
+   * #### Evaluation GLUE benchmark
+       ```
+       qsub $APPROOT/module_file/NTHU_NEMO.pbs 
+       ```
