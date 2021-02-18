@@ -25,7 +25,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_3.png" width="50%" height="50%" />
     </div>
-* ### Software Compilation Version
+* ### Result
     After the above testing, we finally choose the best performance version to hand out.  We select the top two versions among all versions tested, and we test many times and compare their average running time to choose one of them as our best version. The best one is using 32 nodes(15 per CPUs).
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_4.png" width="50%" height="50%" />
