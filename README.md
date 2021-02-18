@@ -30,6 +30,12 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_4.png" width="70%" height="70%" />
     </div>
-
+    <div align="center">
+    <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_5.png" width="70%" height="70%" />
+    </div>
 
 * ### User Guide
+   ```
+   wget https://raw.githubusercontent.com/William-Mou/module_file/main/install_nemo.sh
+   chmod +x install_nemo.sh && ./install_nemo.sh
+   ```
