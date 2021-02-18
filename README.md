@@ -23,7 +23,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
         </div>
 * ### Installation
     *  <div align="center">
-       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_2.png" width="60%" height="60%" />
+       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_3.png" width="60%" height="60%" />
        </div>
 * ### Result
 
