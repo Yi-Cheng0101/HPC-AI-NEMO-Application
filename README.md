@@ -35,8 +35,15 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     </div>
 
 * ### User Guide
-   * ####Option1 : Install From GitHub
+   * #### Option1 : Install From GitHub
        ```
        wget https://raw.githubusercontent.com/William-Mou/module_file/main/install_nemo.sh
        chmod +x install_nemo.sh && ./install_nemo.sh
+       ```
+   * #### Option2 : Install From Compressed File
+       ```
+       tar zxvf install_nemo.tar.gz && \
+       cd install_nemo && \
+       chmod +x install_nemo_local.sh && \
+       ./install_nemo_local.sh
        ```
