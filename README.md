@@ -12,7 +12,9 @@ NEMO is distributed with several reference configurations, allowing both the use
 * ### Benckmark GYRE
     The GYRE configuration has been built to simulate the seasonal cycle of a double-gyre box model. 
 The domain geometry is a closed rectangular basin on the beta-plane centred at sin(30) and rotated by 45, 3180 km long, 2120 km wide and 4 km deep. The domain is bounded by vertical walls and by a flat bottom. The configuration is meant to represent an idealized North Atlantic or North Pacific basin. The circulation is forced by analytical profiles of wind and buoyancy fluxes.
-![image](https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_0.png)
+    <div align="center">
+    <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_0.png" width="50%" height="50%" />
+    </div>
 * ### Hotspot Analysis
     * Profiler: vtune
     * __traadv_fct_MOD_tra_adv_fct is the main hotspot
