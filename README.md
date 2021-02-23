@@ -25,8 +25,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     * We use our script to get each hostname of node, and try to cross nodes from one node started. We get errors when running NEMO using 17 nodes and each node has 24 CPUs. The execute program always failed and couldn't be run successfully. The question confused us for a long time, we were very confused about why the program couldn’t be run successfully when using more than 384 CPUs. After our team discussion, our conclusion is that the spec of the test case “nn_Gyre” has limited the number of CPUs. For the program parameter “nn_Gyre” 25 only allows 384 CPUs to run. If we want to run more than 16 nodes with 384 CPUs in total, we should distribute 384 processes equally to each node. Therefore, 384 CPUs distribute to 16 nodes and each node has 12 CPUs. After our experiment (Figure 2.5), using 32 nodes 12 CPUs per node could be run successfully and was the fastest one compared with the other versions using 384 CPUs.
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_6.png" width="60%" height="60%" />
-    </div>
-    However, we received the mail from NSCC organizer, they told us that NEMO can’t run with an arbitrary number of MPI ranks. After we know that, we continuously test 32 nodes with more than 12 CPUs per node. The result shows that only four various numbers of CPUs per node could be run.
+    </div>However, we received the mail from NSCC organizer, they told us that NEMO can’t run with an arbitrary number of MPI ranks. After we know that, we continuously test 32 nodes with more than 12 CPUs per node. The result shows that only four various numbers of CPUs per node could be run.
 
 * ### -O option flag 
 * ### HDF5  version
