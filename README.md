@@ -26,6 +26,8 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_6.png" width="60%" height="60%" />
     </div>
+    However, we received the mail from NSCC organizer, they told us that NEMO can’t run with an arbitrary number of MPI ranks. After we know that, we continuously test 32 nodes with more than 12 CPUs per node. The result shows that only four various numbers of CPUs per node could be run.
+
 * ### -O option flag 
 * ### HDF5  version
 * ### Process-core Binding
