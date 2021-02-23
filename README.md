@@ -22,9 +22,9 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
         <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_2.png" width="60%" height="60%" />
         </div>
 * ### Multiple nodes
-        <div align="center">
-        <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_6.png" width="60%" height="60%" />
-        </div>
+    <div align="center">
+    <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_6.png" width="60%" height="60%" />
+    </div>
 * ### -O option flag 
 * ### HDF5  version
 * ### Process-core Binding
