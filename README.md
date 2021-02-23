@@ -26,6 +26,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
 * ### HDF5  version
 * ### Process-core Binding
 * ### Software Compilation Version
+    NSCC machine:
     <div align="center">
     <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_3.png" width="50%" height="50%" />
     </div>
