@@ -38,7 +38,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_8.png" width="70%" height="70%" />
       </div>
 * ### Process-core Binding
-      <div align="center">
+    * <div align="center">
       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_9.png" width="70%" height="70%" />
       </div>
 * ### Software Compilation Version
