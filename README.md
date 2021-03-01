@@ -34,6 +34,9 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
       </div>
   Compiling the makenemo file using arch-linux_gfortran.fcm file has many option flags and we discovered that %CFLAGS and %FCFLAGS there are two flags that could be fixed and may have a chance to optimize the program. The O2 O3 and Ofast compare with 16 nodes each node has 24 processes.(Figure 2.7) The testing result is that the Ofast flag is faster than the O2 flag and O3 is the slowest of them. When we test 32 nodes (12 PCUs per node) using the Ofast flag, the program would fail and can’t be run. After the test, we decided to use default flag O2 to make sure that the answer and output files will be correct and fine.
 * ### HDF5  version
+    * <div align="center">
+      <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_8.png" width="70%" height="70%" />
+      </div>
 * ### Process-core Binding
 * ### Software Compilation Version
     NSCC machine:
