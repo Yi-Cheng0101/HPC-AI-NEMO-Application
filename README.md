@@ -37,6 +37,7 @@ The domain geometry is a closed rectangular basin on the beta-plane centred at s
     * <div align="center">
       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_8.png" width="70%" height="70%" />
       </div>
+From the hpcx NEMO guideline,the hdf5 version used in the installation tutorial is 1.10.6, but we are interested in whether different hdf5 versions could improve the performance or not. Hence, we test two different hdf5 versions on 32 nodes and each node has 12 CPUs.  After multiple tests (Figure 2.8), we choose each version which has the least running time to compare. Finally, we decided to choose the hdf5 1.8.21 version, because the version is stable and a little faster than hdf5-1.10.6.
 * ### Process-core Binding
     * <div align="center">
       <img src="https://github.com/Yi-Cheng0101/HPC-AI-NEMO-Application/blob/master/nemo_img_9.png" width="70%" height="70%" />
